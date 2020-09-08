@@ -31,7 +31,7 @@ jobs:
       with:
         message: "Image changed"
         add: "*.png"
-        cwd: "./diagrams/"
+        cwd: "./"
         force: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
