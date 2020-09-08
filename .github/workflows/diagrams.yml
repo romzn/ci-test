@@ -1,15 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: create images from diagrams
+name: CI
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-    
+    paths: 
+      - 'diagrams/**'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,9 +19,17 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - uses: actions/checkout@v2
-    - name: Convert digramm to png
+    - name: Convert context model to png image
       uses: Burnett01/actions-drawio@1.0
       with:
-        src: ./d1.drawio
-        dest: ./d1.png
+        src: diagrams/context_model.drawio
+        dest: diagrams/context_model.png
         
+    - uses: EndBug/add-and-commit@v4
+      with:
+        message: "Image changed"
+        add: "*.png"
+        cwd: "./diagrams/"
+        force: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
