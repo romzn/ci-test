@@ -27,11 +27,3 @@ jobs:
         src: d1.drawio
         dest: d1.png
         
-    - uses: EndBug/add-and-commit@v4
-      with:
-        message: "Image changed"
-        add: "*.png"
-        cwd: "./"
-        force: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
