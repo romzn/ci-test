@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T11:43:30.596Z" agent="5.0 (Windows)" etag="R4QYHQVcc-vyJhCzkQy6" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-08T11:46:58.990Z" agent="5.0 (Windows)" etag="qCosqgVHZWWZ4M7AZ4qH" version="13.6.8" type="github">
   <diagram id="9c1IC47y52K3vItkU3Kz" name="Page-1">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qfJ46PppJaWteEaOSz4K-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;valueType&amp;gt;&amp;gt;&lt;br/&gt;&lt;b&gt;ValueType1&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;font-size:10px;margin:0px;text-align:center;&quot;&gt;&lt;i&gt;operations&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;operation1 (p1 : Type1) : Type2&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;font-size:10px;margin:0px;text-align:center;&quot;&gt;&lt;i&gt;properties&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;property1 : Type3&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;valueType&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;unit = UnitName&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="460" y="324" width="200" height="180" as="geometry" />
+        <mxCell id="2qX-5kWjuTy_uk1KEE1J-1" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2qX-5kWjuTy_uk1KEE1J-2" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2qX-5kWjuTy_uk1KEE1J-3" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="360" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
