@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GH_TOKEN }}
+        #with:
+          #token: ${{ secrets.GH_TOKEN }}
 
       - name: Export drawio files to asciidoctor and png files
         uses: docker://rlespinasse/drawio-export:2.5.0
